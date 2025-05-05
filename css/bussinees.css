@@ -1,0 +1,179 @@
+.ocean {
+    background-image: url(https://mf.b37mrtl.ru/rbthmedia/images/2021.06/original/60b73d4d85600a466078b07e.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    padding: 100px;
+    color: white;
+}
+
+.ocean .text {
+    margin-left: 50px;
+    padding: 40px;
+}
+
+.ocean .text h1 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ocean .text h3 {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ocean .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.ocean .connect h1 {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.ocean .connect .details {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    padding: 35px;
+}
+
+.ocean .connect .details .advantages {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ocean .connect .details .selection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.ocean .connect .details .selection p {
+    margin: 0;
+}
+
+.ocean .connect .details .selection p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.brands {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.brands h1 {
+    color: #4F7942;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.brands h2 {
+    color: #4F7942;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.brands .support {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.brands button {
+    border-radius: 20px;
+    background-color: white;
+    color: #4F7942;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+
+.brands button:hover {
+    background-color: #4F7942;
+    color: white;
+}
+
+@media (max-width: 600px) {
+    .ocean {
+        padding: 40px 20px;
+        height: auto;
+        text-align: center;
+    }
+
+    .ocean .text {
+        margin-left: 0;
+        padding: 20px;
+    }
+
+    .ocean .connect .details {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .brands .support {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .brands {
+        padding: 30px 10px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    @media (min-width: 601px) and (max-width: 1024px) {
+        .ocean {
+            padding: 60px 40px;
+            height: auto;
+        }
+
+        .ocean .connect .details {
+            flex-direction: column;
+            gap: 40px;
+            padding: 30px;
+        }
+
+        .brands .support {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        header {
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+
+        header nav {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    }
+}
